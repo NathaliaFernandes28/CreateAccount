@@ -35,6 +35,6 @@ Clique no arquivo "index.html" e veja a aplicação.
 [SASS](https://sass-lang.com/)
 
 
-
+Visualização do projeto final: 
 
 ![image](https://github.com/NathaliaFernandes28/CreateAccount/assets/88513545/65901b41-130f-4e94-b51e-841f4896b361)
