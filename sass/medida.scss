@@ -1,0 +1,63 @@
+$width: 20px;
+$width-padding: 10px;
+$width-image: 400px;
+$margin-left-image: 190px;
+$margin-top-image: 150px;
+$fontSize-label: 14px;
+$mainDiv-margin: 220px;
+$imgMarginTop: 40px;
+
+.mainDiv {
+  display: flex;
+  margin-left: $margin-left-image;
+}
+
+h1 {
+  margin-top: $width;
+}
+.img {
+  text-align: center;
+  margin-top: $imgMarginTop;
+}
+p {
+  text-align: center;
+  margin-top: $width;
+}
+.imgFacebook {
+  width: $width;
+  margin-right: $width;
+  margin-left: $width;
+}
+.imgGoogle {
+  width: $width;
+}
+.imgLinkedin {
+  width: $width;
+}
+.mainImg {
+  width: $width-image;
+  margin-left: $margin-left-image;
+  margin-top: $margin-top-image;
+  margin-bottom: $width;
+}
+
+label {
+  font-size: $fontSize-label;
+  margin-left: $width;
+}
+input {
+  padding: $width-padding;
+  border-radius: $width-padding;
+  margin-bottom: $width-padding;
+  margin-left: $width;
+}
+button {
+  font-size: $fontSize-label;
+  padding: $width-padding;
+  margin-top: $width;
+  border-radius: $width-padding;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-left: $width;
+}

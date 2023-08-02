@@ -1,0 +1,32 @@
+$primary-color: #1b2029;
+$second-color: #8880fe;
+$terceira-color: rgba(255, 255, 255, 0.3);
+$quarta-color: white;
+$quinta-color: #161923;
+
+body {
+  background-color: $primary-color;
+}
+body h1 {
+  color: $second-color;
+}
+label {
+  color: $quarta-color;
+}
+input {
+  background-color: $quinta-color;
+  border: 1px solid $quarta-color;
+}
+button {
+  background-color: $quinta-color;
+  color: $quarta-color;
+  border: 1px solid $quarta-color;
+}
+button:hover {
+  color: $quinta-color;
+  background-color: $second-color;
+  font-weight: 700;
+}
+section {
+  color: $second-color;
+}
